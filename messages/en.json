@@ -1,0 +1,174 @@
+{
+  "personalInfo": {
+    "name": "John Doe",
+    "position": "Software Engineer",
+    "location": "New York, USA"
+  },
+
+  "navBar": {
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog"
+  },
+
+  "dynamicMetadata": {
+    "name": "John Doe",
+    "position": "Software Engineer",
+    "blog": "Blog",
+    "blogDescription": "Another space to express and share some of my personal thoughts and technical writings with you!",
+    "projects": "Projects",
+    "projectsDescription": "Projects and some details about them ✨!",
+    "ProjectNotFound": "Project Not Found",
+    "ProjectNotFoundDescription": "The project you are looking for does not exist",
+    "PostNotFound": "Post Not Found",
+    "PostNotFoundDescription": "The post you are looking for does not exist"
+  },
+
+  "cvModal": {
+    "CV": "CV",
+    "GotIt": "Got it!",
+    "Disclaimer": "Disclaimer",
+    "CVLastUpdatedOn": "CV last updated on March 22",
+    "Download": "Download"
+  },
+
+  "read": {
+    "ReadMore": "Read More",
+    "ReadLess": "Read Less"
+  },
+
+  "sections": {
+    "WorkExperience": {
+      "title": "Work Experience",
+      "subtitle": "that I have"
+    },
+    "DeveloperSkills": {
+      "title": "Developer Skills",
+      "subtitle": "that I learned and willing to learn more",
+      "wantToLearnMore": {
+        "DeveloperSkillsThatIWantToLearn": "Developer Skills that I want to learn"
+      }
+    },
+    "OperatingSystems": {
+      "title": "Operating Systems",
+      "subtitle": "I've used and still use!",
+      "OSes": {
+        "MacOS": "MacOS ",
+        "Windows": "Windows"
+      }
+    },
+    "Contributions": {
+      "title": "Contributions",
+      "UniGetUIContributingInArabicTranslation": "UniGetUI : Contributing in Arabic translation",
+      "OrionBrowserContributingInArabicTranslation": "Orion Browser : Contributing in Arabic translation"
+    },
+    "PCSoftwares": {
+      "title": "PC Softwares",
+      "subtitle": "that I use",
+      "AllOS": "All OS",
+      "WindowsOnly": "Windows only",
+      "MacOSOnly": "MacOS only"
+    },
+    "MobileApps": {
+      "title": "Mobile Apps",
+      "subtitle": "that are good and I depend on"
+    },
+    "Websites": {
+      "title": "Interesting Websites",
+      "subtitle": "that may interest you!"
+    },
+    "Other": {
+      "title": "Other",
+      "PCWallpaperPack": "PC Wallpaper Pack",
+      "MobileWallpaperPack": "Mobile Wallpaper Pack"
+    },
+    "MySetupThings": {
+      "title": "My Setup Things",
+      "setupThings": {
+        "MonitorSamsungViewFinityS8UHD32Inch": "Monitor : Samsung ViewFinity S8 UHD 32 inch",
+        "MouseKeychronM3MiniWireless1000HzMouse": "Mouse : Keychron M3 Mini Wireless 1000Hz Mouse",
+        "MouseKeychronM3MiniWireless1000HzMouseAliExpress": "Mouse : Keychron M3 Mini Wireless 1000Hz Mouse (AliExpress)",
+        "KeyboardKeychronK2ProBrownSwitchWirelessMechanicalKeyboard": "Keyboard : Keychron K2 Pro Brown Switch Wireless Mechanical Keyboard",
+        "KeyboardKeychronK2ProBrownSwitchWirelessMechanicalKeyboardAliExpress": "Keyboard : Keychron K2 Pro Brown Switch Wireless Mechanical Keyboard (AliExpress)",
+        "KeyboardArabicKeycaps": "Keyboard Arabic Keycaps",
+        "MonitorLightBar": "Monitor Light Bar"
+      }
+    },
+    "ContactMe": {
+      "title": "Contact Me",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "Ahmed": "Ahmed",
+      "Mohammed": "Mohammed",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "message": "Message",
+      "howCanIHelpYou": "How can I help you?",
+      "iWillTryToResponedInTheFastestICan": "I Will try to responed in the fastest I can",
+      "submitting": "submitting...",
+      "send": "Send"
+    }
+  },
+
+  "validation": {
+    "firstNameMin": "First name must be at least 2 characters",
+    "firstNameMax": "First name must be less than 50 characters",
+    "lastNameMin": "Last name must be at least 2 characters",
+    "lastNameMax": "Last name must be less than 50 characters",
+    "email": "Please enter a valid email address",
+    "phoneMin": "Phone number must be at least 10 characters",
+    "messageMin": "Message must be at least 10 characters",
+    "messageMax": "Message must be less than 1000 characters",
+    "failedToSendMessage": "Failed to send message",
+    "checkInputs": "Please check your inputs",
+    "messageSentSuccessfully": "Message sent successfully!"
+  },
+
+  "footer": {
+    "Copyright": "© 2025 / ",
+    "name": "John Doe",
+    "Version": "Version"
+  },
+
+  "postStatics": {
+    "author": "John Doe",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "copiedToClipboard": "Copied to clipboard!"
+  },
+
+  "projects": {
+    "SoonInshallah": "Soon... Insha allah!",
+    "LaterThisYear": "Later this year",
+    "LaterThisYearInshaAllah": "Later this year Insha allah!",
+    "GotIt": "Got it!",
+    "Disclaimer": "Disclaimer",
+    "PersonalProjectsAndSomeDetailsAboutThem": "Personal projects and some details about them ✨!"
+  },
+
+  "blog": {
+    "AnotherDimensionToExpressAndShareThoughts": "Another dimension to express and share thoughts!"
+  },
+
+  "views": {
+    "views": "views"
+  },
+
+  "notFoundPage": {
+    "notFound": "Not Found",
+    "notFoundTitle": "Page Not Found",
+    "notFoundDescription": "Don't worry, you're only on a wrong page,",
+    "notFoundDescription2": "you can go back or click the button below",
+
+    "backToHome": "Back to Home"
+  },
+
+  "error": {
+    "somethingWentWrong": "Something went wrong!",
+    "somethingWentWrongDescription": "Please try again or go back to the previous page",
+    "error": "Error",
+    "tryAgain": "Try again",
+    "goBackToHome": "Go to home",
+    "goBack": "Go back"
+  }
+}

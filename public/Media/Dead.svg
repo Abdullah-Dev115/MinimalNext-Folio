@@ -1,0 +1,68 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>dead</title>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<g id="_12-dizzy">
+		<path class="s0" d="m32 0h4v4h-4z"/>
+		<path class="s0" d="m36 0h4v4h-4z"/>
+		<path class="s0" d="m28 0h4v4h-4z"/>
+		<path class="s0" d="m24 0h4v4h-4z"/>
+		<path class="s0" d="m20 4h4v4h-4z"/>
+		<path class="s0" d="m16 4h4v4h-4z"/>
+		<path class="s0" d="m44 4h4v4h-4z"/>
+		<path class="s0" d="m40 4h4v4h-4z"/>
+		<path class="s0" d="m32 60h4v4h-4z"/>
+		<path class="s0" d="m36 60h4v4h-4z"/>
+		<path class="s0" d="m28 60h4v4h-4z"/>
+		<path class="s0" d="m24 60h4v4h-4z"/>
+		<path class="s0" d="m20 56h4v4h-4z"/>
+		<path class="s0" d="m16 56h4v4h-4z"/>
+		<path class="s0" d="m44 56h4v4h-4z"/>
+		<path class="s0" d="m40 56h4v4h-4z"/>
+		<path class="s0" d="m64 32v4h-4v-4z"/>
+		<path class="s0" d="m64 36v4h-4v-4z"/>
+		<path class="s0" d="m64 28v4h-4v-4z"/>
+		<path class="s0" d="m64 24v4h-4v-4z"/>
+		<path class="s0" d="m60 20v4h-4v-4z"/>
+		<path class="s0" d="m60 16v4h-4v-4z"/>
+		<path class="s0" d="m60 44v4h-4v-4z"/>
+		<path class="s0" d="m60 40v4h-4v-4z"/>
+		<path class="s0" d="m4 32v4h-4v-4z"/>
+		<path class="s0" d="m4 36v4h-4v-4z"/>
+		<path class="s0" d="m4 28v4h-4v-4z"/>
+		<path class="s0" d="m4 24v4h-4v-4z"/>
+		<path class="s0" d="m8 20v4h-4v-4z"/>
+		<path class="s0" d="m8 16v4h-4v-4z"/>
+		<path class="s0" d="m8 44v4h-4v-4z"/>
+		<path class="s0" d="m8 40v4h-4v-4z"/>
+		<path class="s0" d="m12 8h4v4h-4z"/>
+		<path class="s0" d="m48 8h4v4h-4z"/>
+		<path class="s0" d="m8 12h4v4h-4z"/>
+		<path class="s0" d="m8 48h4v4h-4z"/>
+		<path class="s0" d="m12 52h4v4h-4z"/>
+		<path class="s0" d="m48 52h4v4h-4z"/>
+		<path class="s0" d="m52 48h4v4h-4z"/>
+		<path class="s0" d="m52 12h4v4h-4z"/>
+		<path class="s0" d="m16 20h4v4h-4z"/>
+		<path class="s0" d="m20 24h4v4h-4z"/>
+		<path class="s0" d="m24 28h4v4h-4z"/>
+		<path class="s0" d="m24 20h4v4h-4z"/>
+		<path class="s0" d="m16 28h4v4h-4z"/>
+		<path class="s0" d="m36 20h4v4h-4z"/>
+		<path class="s0" d="m40 24h4v4h-4z"/>
+		<path class="s0" d="m44 28h4v4h-4z"/>
+		<path class="s0" d="m44 20h4v4h-4z"/>
+		<path class="s0" d="m36 28h4v4h-4z"/>
+		<path class="s0" d="m36 38v4h-4v-4z"/>
+		<path class="s0" d="m40 38v4h-4v-4z"/>
+		<path class="s0" d="m44 42v4h-4v-4z"/>
+		<path class="s0" d="m32 38v4h-4v-4z"/>
+		<path class="s0" d="m18 46v4h-4v-4z"/>
+		<path id="Layer copy 2" class="s0" d="m20 43v4h-4v-4z"/>
+		<path class="s0" d="m46 46h4v4h-4z"/>
+		<path id="Layer copy" class="s0" d="m48 43v4h-4v-4z"/>
+		<path class="s0" d="m28 38v4h-4v-4z"/>
+		<path class="s0" d="m24 42v4h-4v-4z"/>
+	</g>
+</svg>

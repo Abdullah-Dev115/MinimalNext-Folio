@@ -1,0 +1,173 @@
+{
+  "personalInfo": {
+    "name": "جون دو",
+    "position": "مهندس برمجيات",
+    "location": "نيويورك, الولايات المتحدة"
+  },
+
+  "navBar": {
+    "about": "عنّي",
+    "projects": "المشاريع",
+    "blog": "المدونة"
+  },
+
+  "dynamicMetadata": {
+    "name": "جون دو",
+    "position": "مهندس برمجيات",
+    "blog": "المدونة",
+    "blogDescription": "هنا مساحة أخرى للتعبير ومشاركة بعض الكتابات والافكار الشخصية والتقنية معكم!",
+    "projects": "المشاريع",
+    "projectsDescription": "المشاريع وبعض التفاصيل عنها ✨!",
+    "ProjectNotFound": "المشروع غير موجود",
+    "ProjectNotFoundDescription": "المشروع الذي تبحث عنه غير موجود",
+    "PostNotFound": "التدوينة غير موجودة",
+    "PostNotFoundDescription": "التدوينة الذي تبحث عنها غير موجودة"
+  },
+
+  "cvModal": {
+    "CV": "السيرة الذاتية",
+    "GotIt": "تمام!",
+    "Disclaimer": "تنويه",
+    "CVLastUpdatedOn": "آخر تحديث للسيرة الذاتية في 22 مارس",
+    "Download": "تحميل"
+  },
+
+  "read": {
+    "ReadMore": "اقرأ المزيد",
+    "ReadLess": "اقرأ أقل"
+  },
+
+  "sections": {
+    "WorkExperience": {
+      "title": "الخبرة المهنية",
+      "subtitle": "التي لدي"
+    },
+    "DeveloperSkills": {
+      "title": "مهارات المُطوِّرين",
+      "subtitle": "التي تعلمت بعضها وأبي أتعلم أكثر!",
+      "wantToLearnMore": {
+        "DeveloperSkillsThatIWantToLearn": "مهارات المُطوِّرين التي أريد تعلمها"
+      }
+    },
+    "OperatingSystems": {
+      "title": "أنظمة التشغيل",
+      "subtitle": "التي استخدمتها وما زلت استخدمها!",
+      "OSes": {
+        "MacOS": "MacOS",
+        "Windows": "Windows"
+      }
+    },
+    "Contributions": {
+      "title": "المساهمات",
+      "UniGetUIContributingInArabicTranslation": "UniGetUI : المساهمة في ترجمة البرنامج العربية ",
+      "OrionBrowserContributingInArabicTranslation": "Orion Browser : المساهمة في ترجمة البرنامج العربية"
+    },
+    "PCSoftwares": {
+      "title": "برامج الكمبيوتر",
+      "subtitle": "التي استخدمتها",
+      "AllOS": "كل الأنظمة",
+      "WindowsOnly": "ويندوز فقط",
+      "MacOSOnly": "ماك أو أس فقط"
+    },
+    "MobileApps": {
+      "title": "تطبيقات الجوال",
+      "subtitle": "رائعة ومعتمدٌ عليها"
+    },
+    "Websites": {
+      "title": "مواقع",
+      "subtitle": "ممكن تعجبك!"
+    },
+    "Other": {
+      "title": "أخرى",
+      "PCWallpaperPack": " حزمة خلفيات للبي سي ",
+      "MobileWallpaperPack": " حزمة خلفيات للجوال"
+    },
+    "MySetupThings": {
+      "title": "ما استخدمه للعمل!",
+      "setupThings": {
+        "MonitorSamsungViewFinityS8UHD32Inch": "الشاشة : Samsung ViewFinity S8 UHD 32 inch (موقع سامسونق الرسمي)",
+        "MouseKeychronM3MiniWireless1000HzMouse": "الماوس : Keychron M3 Mini Wireless 1000Hz Mouse",
+        "MouseKeychronM3MiniWireless1000HzMouseAliExpress": "الماوس : Keychron M3 Mini Wireless 1000Hz Mouse (علي اكسبرس)",
+        "KeyboardKeychronK2ProBrownSwitchWirelessMechanicalKeyboard": "لوحة المفاتيح : Keychron K2 Pro Brown Switch Wireless Mechanical Keyboard",
+        "KeyboardKeychronK2ProBrownSwitchWirelessMechanicalKeyboardAliExpress": "لوحة المفاتيح : Keychron K2 Pro Brown Switch Wireless Mechanical Keyboard (علي اكسبرس)",
+        "KeyboardArabicKeycaps": "أزرار لوحة المفاتيح العربية",
+        "MonitorLightBar": "لمبة الشاشة"
+      }
+    },
+    "ContactMe": {
+      "title": "تواصل معي",
+      "firstName": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "Ahmed": "أحمد",
+      "Mohammed": "محمد",
+      "email": "البريد الإلكتروني",
+      "phoneNumber": "رقم الجوال",
+      "message": "الرسالة",
+      "howCanIHelpYou": "كيف ممكن أساعدك؟",
+      "iWillTryToResponedInTheFastestICan": "سأحاول الرد بأسرع وقت ممكن!",
+      "submitting": "يتم الإرسال...",
+      "send": "إرسال"
+    }
+  },
+
+  "validation": {
+    "firstNameMin": "الاسم الأول يجب أن يكون على الأقل 2 أحرف",
+    "firstNameMax": "الاسم الأول يجب أن يكون أقل من 50 حرف",
+    "lastNameMin": "الاسم الأخير يجب أن يكون على الأقل 2 أحرف",
+    "lastNameMax": "الاسم الأخير يجب أن يكون أقل من 50 حرف",
+    "email": "يجب أن يكون البريد الإلكتروني بصيغة صالحة",
+    "phoneMin": "رقم الجوال يجب أن يكون على الأقل 10 أحرف",
+    "messageMin": "الرسالة يجب أن تكون على الأقل 10 أحرف",
+    "messageMax": "الرسالة يجب أن تكون أقل من 1000 حرف",
+    "failedToSendMessage": "فشل إرسال الرسالة",
+    "checkInputs": "يرجى التحقق من المدخلات",
+    "messageSentSuccessfully": "تم إرسال الرسالة بنجاح!"
+  },
+
+  "footer": {
+    "Copyright": "© 2025 / ",
+    "name": "جون دو",
+    "Version": "الإصدار"
+  },
+
+  "postStatics": {
+    "author": "جون دو",
+    "share": "مشاركة",
+    "copyLink": "نسخ الرابط",
+    "copiedToClipboard": "تم نسخ الرابط!"
+  },
+
+  "projects": {
+    "SoonInshallah": "قريباً... بإذن الله!",
+    "LaterThisYear": "هذا العام",
+    "LaterThisYearInshaAllah": "في هذا العام بإذن الله!",
+    "GotIt": "تمام!",
+    "Disclaimer": "تنويه",
+    "PersonalProjectsAndSomeDetailsAboutThem": "المشاريع الشخصية وبعض التفاصيل عنها ✨!"
+  },
+
+  "blog": {
+    "AnotherDimensionToExpressAndShareThoughts": "هنا مساحة أخرى للتعبير ومشاركة بعض الكتابات والافكار الشخصية والتقنية معكم!"
+  },
+
+  "views": {
+    "views": "مشاهدة"
+  },
+
+  "notFoundPage": {
+    "notFound": "صفحة غير موجودة",
+    "notFoundTitle": "الصفحة غير موجودة",
+    "notFoundDescription": "لا تقلق أنت فقط في صفحة خاطئة،",
+    "notFoundDescription2": "يمكنك العودة للصفحة للرئيسية أو الضغط على الزر التالي",
+    "backToHome": "العودة للرئيسية"
+  },
+
+  "error": {
+    "somethingWentWrong": "حدث خطأ ما!",
+    "somethingWentWrongDescription": "يرجى المحاولة مرة أخرى أو العودة للصفحة السابقة",
+    "error": "الخطأ",
+    "tryAgain": "حاول مرة أخرى",
+    "goBackToHome": "العودة للرئيسية",
+    "goBack": "العودة للصفحة السابقة"
+  }
+}
