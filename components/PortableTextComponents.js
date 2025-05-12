@@ -8,28 +8,6 @@ import { Link } from '@/i18n/routing'
 // then make sure to specify the locale in the href:
 // <Link href={`${locale}/blog/${slug}`}>
 
-// Function to detect text direction
-const getTextDirection = (text) => {
-  let textContent = ''
-
-  if (typeof text === 'string') {
-    textContent = text
-  } else if (text && typeof text === 'object') {
-    textContent = text.props?.children || text.text || ''
-  }
-
-  // If we still don't have text content then return the default
-  if (!textContent) {
-    return 'ltr'
-  }
-
-  // Check for Arabic characters
-  const arabicPattern = /[\u0600-\u06FF\u0750-\u077F]/
-  const hasArabic = arabicPattern.test(textContent)
-
-  return hasArabic ? 'rtl' : 'ltr'
-}
-
 export const portableTextComponents = {
   types: {
     image: ({ value }) => {
@@ -66,7 +44,7 @@ export const portableTextComponents = {
     h1: ({ children }) => {
       return (
         <h1
-          style={{ lineHeight: '1.5em' }}
+          style={{ lineHeight: '1em' }}
           className="mb-8 text-3xl font-medium tracking-[-0.010em] text-zinc-100 sm:text-4xl md:tracking-wide lg:tracking-normal"
         >
           {children}
@@ -76,7 +54,7 @@ export const portableTextComponents = {
     h2: ({ children }) => {
       return (
         <h2
-          style={{ lineHeight: '1.5em' }}
+          style={{ lineHeight: '1em' }}
           className="mb-8 text-2xl font-semibold tracking-[-0.010em] text-zinc-100 sm:text-3xl md:tracking-wide lg:tracking-normal"
         >
           {children}
@@ -86,11 +64,32 @@ export const portableTextComponents = {
     h3: ({ children }) => {
       return (
         <h3
-          style={{ lineHeight: '1.5em' }}
+          style={{ lineHeight: '1em' }}
           className="mb-8 text-xl font-medium tracking-[-0.010em] text-zinc-100 sm:text-2xl md:tracking-wide lg:tracking-normal"
         >
           {children}
         </h3>
+      )
+    },
+    h4: ({ children }) => {
+      return (
+        <h4 className="mb-8 text-lg font-medium tracking-[-0.010em] text-zinc-100 sm:text-xl md:tracking-wide lg:tracking-normal">
+          {children}
+        </h4>
+      )
+    },
+    h5: ({ children }) => {
+      return (
+        <h5 className="mb-8 text-base font-medium tracking-[-0.010em] text-zinc-100 sm:text-lg md:tracking-wide lg:tracking-normal">
+          {children}
+        </h5>
+      )
+    },
+    h6: ({ children }) => {
+      return (
+        <h6 className="mb-8 text-sm font-medium tracking-[-0.010em] text-zinc-100 sm:text-base md:tracking-wide lg:tracking-normal">
+          {children}
+        </h6>
       )
     },
     normal: ({ children }) => {
