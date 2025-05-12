@@ -155,7 +155,7 @@ const softwaresList = [
   {
     link: 'https://folivora.ai/keyboardcleantool',
     title: 'Clean Keyboard Tool',
-    src: '/Media/PCSoftwares/CleanTool.png',
+    src: '/Media/PCSoftwares/cleanTool.png',
     alt: 'Clean Keyboard Tool',
     os: ['MacOS'],
     moreAttribute: 'lazy',

@@ -39,7 +39,7 @@ export default function DeveloperSkills() {
     {
       link: 'https://www.w3schools.com/js/default.asp',
       title: 'Javascript',
-      src: '/Media/DeveloperSkills/Javascript.png',
+      src: '/Media/DeveloperSkills/JavaScript.png',
       alt: 'Javascript',
       imageClassName: 'rounded',
     },
