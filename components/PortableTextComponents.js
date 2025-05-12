@@ -112,7 +112,7 @@ export const portableTextComponents = {
     blockquote: ({ children }) => {
       return (
         <blockquote className="relative my-8 rounded-xl bg-black/20 px-4 py-4 text-lg italic text-zinc-300">
-          <div className="inset-inline-start-2 absolute bottom-0 top-0 my-auto h-[80%] w-0.5 rounded-full bg-cyan-400" />
+          <div className="inset-inline-start-2 absolute bottom-0 top-0 my-auto h-[80%] min-h-5 w-0.5 rounded-full bg-cyan-400" />
           <div className="pe-3 ps-3">{children}</div>
         </blockquote>
       )
