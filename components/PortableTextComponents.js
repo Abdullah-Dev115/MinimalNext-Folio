@@ -111,8 +111,9 @@ export const portableTextComponents = {
     },
     blockquote: ({ children }) => {
       return (
-        <blockquote className={`my-4 border-zinc-500 italic text-zinc-300`}>
-          {children}
+        <blockquote className="relative my-8 rounded-xl bg-black/20 px-4 py-4 text-lg italic text-zinc-300">
+          <div className="inset-inline-start-2 absolute bottom-0 top-0 my-auto h-[80%] w-0.5 rounded-full bg-cyan-400" />
+          <div className="pe-3 ps-3">{children}</div>
         </blockquote>
       )
     },
@@ -154,7 +155,7 @@ export const portableTextComponents = {
     bullet: ({ children }) => {
       return (
         <ul
-          className={`mb-4 list-disc space-y-2 text-zinc-400 marker:text-cyan-400`}
+          className={`mx-6 mb-4 list-disc space-y-2 text-zinc-100 marker:text-cyan-400`}
         >
           {children}
         </ul>
@@ -163,7 +164,7 @@ export const portableTextComponents = {
     number: ({ children }) => {
       return (
         <ol
-          className={`mb-4 list-decimal space-y-2 text-zinc-400 marker:text-cyan-400`}
+          className={`mx-6 mb-4 list-decimal space-y-2 text-zinc-100 marker:text-cyan-400`}
         >
           {children}
         </ol>
