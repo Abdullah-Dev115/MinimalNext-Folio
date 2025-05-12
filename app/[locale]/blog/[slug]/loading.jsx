@@ -3,7 +3,7 @@ import PostStatics from '@/components/PostStatics'
 export default function BlogPostLoading() {
   return (
     <div
-      dir="rtl"
+      // dir="rtl"
       className="container mx-auto flex min-h-screen max-w-5xl flex-col items-center py-10 pb-24"
     >
       <div className="w-full animate-pulse px-5">
