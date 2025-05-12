@@ -27,7 +27,7 @@ export default function DeveloperSkills() {
     {
       link: 'https://www.w3schools.com/css/',
       title: 'CSS',
-      src: '/Media/DeveloperSkills/css.png',
+      src: '/Media/DeveloperSkills/CSS.png',
       alt: 'CSS',
     },
     {
@@ -52,7 +52,7 @@ export default function DeveloperSkills() {
     {
       link: 'https://nodejs.org/en',
       title: 'Node JS',
-      src: '/Media/DeveloperSkills/NodejS.svg',
+      src: '/Media/DeveloperSkills/Nodejs.svg',
       alt: 'Node JS',
     },
     {
