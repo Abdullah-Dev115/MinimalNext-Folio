@@ -18,7 +18,7 @@ export const SectionItem = ({
         href={link || ''}
         target="_blank"
         rel="noreferrer"
-        className="rounded-lg border border-white/15 bg-indigo-400/10 py-1 pe-2 ps-1 backdrop-blur-xl transition-all duration-150 hover:scale-110 hover:border-white/30 hover:bg-indigo-400/15"
+        className="rounded-lg border border-white/15 bg-indigo-400/10 py-1 pe-2 ps-1 backdrop-blur-xl transition-all duration-150 hover:z-20 hover:scale-110 hover:border-white/30 hover:bg-indigo-400/15"
       >
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-row items-center justify-start gap-2">
