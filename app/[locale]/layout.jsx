@@ -5,12 +5,26 @@ import { getMessages, getLocale } from 'next-intl/server'
 import { Toaster } from 'react-hot-toast'
 import NavBar from '@/components/ui/navBar'
 import { BeamsBackground } from '@/components/ui/backgrounds/beams-background'
+// import Beams from '@/components/ui/backgrounds/beams-background2'
 
 function PersistentBackground() {
   return (
     <div className="fixed inset-0 z-0">
       {/* For more background, explore the folder components/ui/backgrounds */}
       <BeamsBackground />
+
+      {/* New beams background! */}
+      {/* Customize the beams background in https://www.reactbits.dev/backgrounds/beams */}
+      {/* <Beams
+        beamWidth={0.8}
+        beamHeight={19}
+        beamNumber={28}
+        lightColor="#BDBFFF"
+        speed={2}
+        noiseIntensity={1.75}
+        scale={0.2}
+        rotation={30}
+      /> */}
     </div>
   )
 }
