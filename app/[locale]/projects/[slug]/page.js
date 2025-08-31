@@ -4,10 +4,10 @@ import { client } from '@/sanity/lib/client'
 import React from 'react'
 import { PROJECT_QUERY } from '@/sanity/lib/queries'
 import { notFound } from 'next/navigation'
-import { FormatDate } from '@/lib/utils'
+
 import ProjectViews from '@/components/ProjectViews'
 import SuspensePortableText from '@/components/SuspensePortableText'
-import { getTranslations } from 'next-intl/server'
+import { getFormatter, getTranslations } from 'next-intl/server'
 // Notice that this is not a next/link Link component, it is a Link component from the i18n/routing library
 import { Link } from '@/i18n/routing'
 import { TracingBeam } from '@/components/ui/tracing-beam'
@@ -62,6 +62,7 @@ export const revalidate = 3600
 
 const ProjectPage = async ({ params }) => {
   const { slug } = await params
+  const format = await getFormatter()
 
   try {
     const project = await client.fetch(PROJECT_QUERY, { slug })
@@ -112,7 +113,13 @@ const ProjectPage = async ({ params }) => {
               {/* Project Published Date */}
               <time className="mt-3 flex items-center gap-2 text-zinc-400">
                 <span className="h-4 w-0.5 rounded-full bg-zinc-500"></span>
-                <span>{FormatDate(project.publishedAt)}</span>
+                <span>
+                  {format.dateTime(new Date(project.publishedAt), {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </span>
               </time>
 
               {/* Project Tags */}
