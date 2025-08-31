@@ -112,7 +112,7 @@ const ProjectPage = async ({ params }) => {
               {/* Project Published Date */}
               <time className="mt-3 flex items-center gap-2 text-zinc-400">
                 <span className="h-4 w-0.5 rounded-full bg-zinc-500"></span>
-                <span className="mr-3">{FormatDate(project.publishedAt)}</span>
+                <span>{FormatDate(project.publishedAt)}</span>
               </time>
 
               {/* Project Tags */}
