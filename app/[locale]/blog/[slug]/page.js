@@ -80,7 +80,7 @@ const PostPage = async ({ params }) => {
           <div
             // You can remove the () in the files in blog and projects folders from the divs to make it change the direction base in the locale changing in root layout.js
             // dir="rtl"
-            className="container mx-auto flex min-h-screen max-w-5xl flex-col items-center py-10"
+            className="container mx-auto flex min-h-screen max-w-5xl flex-col items-center overflow-x-hidden py-10"
           >
             <div className="w-full px-1 sm:px-4">
               {/* Back to Blog Page Button */}
