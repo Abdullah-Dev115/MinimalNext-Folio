@@ -82,7 +82,7 @@ const PostPage = async ({ params }) => {
             // dir="rtl"
             className="container mx-auto flex min-h-screen max-w-5xl flex-col items-center py-10"
           >
-            <div className="w-full px-4">
+            <div className="w-full px-1 sm:px-4">
               {/* Back to Blog Page Button */}
               <div className="flex w-full flex-col items-start justify-start">
                 <Link
